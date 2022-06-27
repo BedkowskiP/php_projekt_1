@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: Calibri, sans-serif;
+    min-width: 1000px;
+    background-image: url('img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+header img{
+    height: 80px;
+    display: block;
+    float: left;
+}
+header nav{
+    position: relative;
+    display: block;
+    height: 80px;
+    width: calc(100% - 80px);
+    line-height: 40px;
+    float: left;
+    padding: 20px;
+    padding-left: 60px;
+}
+header nav a{
+    display: inline-block;
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+}
+header nav a:hover{
+    color: #2e7bbf;
+    cursor: pointer;
+}
+header nav .buttons{
+    height: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    color: white;
+}
+header nav .buttons button{
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #2e7bbf;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+header nav .buttons button:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #2e7bbf;
+}
+article{
+    width: 100%;
+    min-height: calc(100vh - 200px);
+    overflow: auto;
+}
+article section{
+    width: 800px;
+    margin: auto;
+}
+article.main-info section{
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgb(175, 175, 175);
+    border-radius: 5px;
+}
+article.main-info section h2{
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+.hidden{
+    display: none;
+}
+.display{
+    display: block;
+}
+.active{
+    color: #2e7bbf;
+}
+.no-active{
+    color: white;
+}

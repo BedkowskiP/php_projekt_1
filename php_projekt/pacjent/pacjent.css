@@ -1,0 +1,113 @@
+header{color: white;}
+article{
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+}
+article.main-pod h1{
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+article.main-pod div.xd{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+article.main-pod div.lol{
+    width: 300px;
+    height: 100px;
+    border: grey 3px solid;
+}
+article.main-pod div.lol h4{
+    font-size: 30px;
+    text-align: center;
+}
+article.main-pod div.lol p{
+    font-size: 40px;
+    text-align: center;
+}
+article h1{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+article.main-lek h1 button{
+   float: right;
+   min-width: 70px;
+   height: 30px;
+   background-color: rgb(0, 161, 0);
+   color: white;
+   border-radius: 5px;
+   border: none;
+}
+article.main-lek h1 button:hover{
+    background-color: rgb(0, 105, 0);
+    cursor: pointer;
+}
+article table{
+    width: 100%;
+}
+article tr{
+    width: 100%;
+    height: 30px;
+}
+article tr:nth-child(even){
+    background-color: white;
+}
+article tr:nth-child(odd){
+    background-color: darkgrey;
+}
+article tr:first-of-type{
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+article table tr td{
+    width: 340px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: none;
+}
+article table tr td:last-of-type{
+    width: 10%;
+}
+article.main-lek form{
+    width: 80%;
+    margin: auto;
+}
+article.main-lek input{
+    width: 80%;
+    display: block;
+    padding: 5px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+article.main-lek select{
+    width: 80%;
+    display: block;
+    padding: 5px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+article.main-lek input[type=submit]{
+    width: 10%;
+    display: block;
+    padding: 5px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+article.main-reg tr:first-of-type td:nth-of-type(7){
+    text-align: center;
+}
+article.main-reg tr td:nth-of-type(7){
+    text-align: left;
+}
+h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
